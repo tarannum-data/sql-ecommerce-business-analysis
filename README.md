@@ -1,19 +1,19 @@
 # SQL E-commerce Business Analysis
 
-A SQL-based analysis project exploring sales performance, profitability, customer behavior, and regional trends using e-commerce data.
+A SQL-based analysis project exploring sales performance, profitability, product trends, and regional behavior using e-commerce sales data.
 
 ---
 
 ## Overview
 
-This project uses SQL queries to explore an e-commerce sales dataset and answer business-focused questions such as:
+This project uses SQL queries to explore an e-commerce dataset and answer business-focused questions such as:
 
 - Which products generate the most revenue?
 - Which categories perform best?
 - Which regions are most profitable?
-- How do sales change over time?
+- How do sales trends change over time?
 
-The goal was to practice real-world SQL analysis and organize the project like a professional portfolio piece rather than a class assignment.
+The goal was to practice real-world SQL analysis while organizing the project like a professional portfolio piece rather than a class assignment.
 
 ---
 
@@ -38,35 +38,35 @@ Dataset file: `ecommerce_sales_data.csv`
 ### Revenue Trends
 Tracks sales performance over time.
 
-`01_revenue_trends.sql`
+`revenue_trends.sql`
 
 ---
 
 ### Top Products
 Finds the highest-selling products.
 
-`02_top_products.sql`
+`top_products.sql`
 
 ---
 
 ### Category Performance
 Compares category-level sales, profit, and quantity sold.
 
-`03_category_performance.sql`
+`category_performance.sql`
 
 ---
 
 ### Regional Performance
 Analyzes sales and profitability across regions.
 
-`04_regional_performance.sql`
+`regional_performance.sql`
 
 ---
 
 ### Most Profitable Products
 Identifies products generating the highest profit.
 
-`05_most_profitable_products.sql`
+`most_profitable_products.sql`
 
 ---
 
@@ -90,11 +90,11 @@ sql-ecommerce-business-analysis/
 ├── ecommerce_sales_data.csv
 │
 ├── queries/
-│   ├── 01_revenue_trends.sql
-│   ├── 02_top_products.sql
-│   ├── 03_category_performance.sql
-│   ├── 04_regional_performance.sql
-│   └── 05_most_profitable_products.sql
+│   ├── revenue_trends.sql
+│   ├── top_products.sql
+│   ├── category_performance.sql
+│   ├── regional_performance.sql
+│   └── most_profitable_products.sql
 │
 ├── README.md
 └── LICENSE
